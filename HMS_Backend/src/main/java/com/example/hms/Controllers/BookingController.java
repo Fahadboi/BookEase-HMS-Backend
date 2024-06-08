@@ -14,7 +14,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://book-ease-hms-frontend-es8w54962.vercel.app")
 @RestController
 @RequestMapping("/api/booking")
 public class BookingController {

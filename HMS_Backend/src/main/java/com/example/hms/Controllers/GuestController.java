@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://book-ease-hms-frontend-es8w54962.vercel.app")
 @RestController
 @RequestMapping("/guest")
 public class GuestController {

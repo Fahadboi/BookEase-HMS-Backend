@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://book-ease-hms-frontend-es8w54962.vercel.app")
 @RestController
 @RequestMapping("/api/invoice")
 public class InvoiceController {
