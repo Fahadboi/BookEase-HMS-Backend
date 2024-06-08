@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "https://book-ease-hms-frontend-es8w54962.vercel.app")
+@CrossOrigin(origins = "https://book-ease-hms-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/billing")
 public class BillingController {

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "https://book-ease-hms-frontend-es8w54962.vercel.app")
+@CrossOrigin(origins = "https://book-ease-hms-frontend.vercel.app")
 @RestController
 @RequestMapping("/staff")
 public class StaffController {

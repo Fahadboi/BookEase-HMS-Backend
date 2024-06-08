@@ -12,7 +12,7 @@ import java.util.Optional;
 
 import static org.springframework.http.ResponseEntity.badRequest;
 
-@CrossOrigin(origins = "https://book-ease-hms-frontend-es8w54962.vercel.app")
+@CrossOrigin(origins = "https://book-ease-hms-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/service")
 public class ServiceTypeController {
