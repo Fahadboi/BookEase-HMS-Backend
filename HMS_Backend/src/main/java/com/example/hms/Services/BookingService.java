@@ -109,7 +109,11 @@ public class BookingService {
         if (LocalDate.now().isAfter(booking.getCheckOut())) {
             throw new IllegalArgumentException("Cannot extend a checkout date that has already passed.");
         }
-
+        
+        if(booking.getBookingStatus().equals(BookingStatus.CANCELLED)){
+            throw new IllegalArgumentException("Booking has already been checked out, So cannot Extend the check-out date.");
+        }
+        
         if(booking.getBookingStatus().equals(BookingStatus.CHECKED_OUT)){
             throw new IllegalArgumentException("Booking has already been checked out, So cannot Extend the check-out date.");
         }
